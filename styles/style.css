@@ -27,7 +27,7 @@ body {
 
 @font-face {
 	font-family: aktiv web;
-	src: url(/fonts/AktivGroteskCorp-Regular.ttf);
+	src: url(../fonts/AktivGroteskCorp-Regular.ttf);
 
   }
   
@@ -44,7 +44,7 @@ body {
 .section1 {
 	height: 100vh;
 	position: relative;
-	background: url(/images/herobg.avif) no-repeat center center; 
+	background: url(../images/herobg.avif) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -109,9 +109,9 @@ body {
 	margin-bottom: 5rem;
 }
 
-.section3-col-1{
+/* .section3-col-1{
 
-}
+} */
 
 .section3-col-2{
 	align-self: flex-end;
