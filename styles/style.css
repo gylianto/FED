@@ -29,8 +29,8 @@ body {
 	font-family: aktiv web;
 	src: url(../fonts/AktivGroteskCorp-Regular.ttf);
 
-  }
-  
+}
+
 
 
 
@@ -44,21 +44,22 @@ body {
 section:nth-of-type(1) {
 	height: 100vh;
 	position: relative;
-	background: url(../images/herobg.avif) no-repeat center center; 
+	background: url(../images/herobg.avif) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 
-section:nth-of-type(1) h1{
+section:nth-of-type(1) h1 {
 	position: absolute;
 	top: 3rem;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
-section:nth-of-type(1) h3{
+
+section:nth-of-type(1) h3 {
 	position: absolute;
 	bottom: 4rem;
 	width: 100%;
@@ -66,114 +67,131 @@ section:nth-of-type(1) h3{
 	justify-content: center;
 }
 
-section:nth-of-type(2) p{
-	/* position: absolute; */
+section:nth-of-type(2) p {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	font-family: aktiv web;
-	font-size: 2.7rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	font-size: 5rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
 }
 
-section:nth-of-type(2) a{
+section:nth-of-type(2) a {
 	display: block;
 	font-family: aktiv web;
 	width: 100%;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding-left: 10rem;
 	text-transform: uppercase;
 }
 
-section:nth-of-type(3){
-	margin-top: 10rem;
+@media (max-width: 800px) {
+
+	section:nth-of-type(2) p {
+		/* position: absolute; */
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-family: aktiv web;
+		font-size: 2.7rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	section:nth-of-type(2) a {
+		display: block;
+		font-family: aktiv web;
+		width: 100%;
+		padding-left: 2rem;
+		text-transform: uppercase;
+	}
+
 }
 
-section:nth-of-type(3) h2{
+section:nth-of-type(3) {
+	margin-top: 20rem;
+}
+
+section:nth-of-type(3) h2 {
 	font-family: aktiv web;
-	font-size: 1.8rem;
+	font-size: 4rem;
 	text-transform: uppercase;
-	padding-left: 2rem;
-	padding-right: 2rem;	
+	padding-left: 10rem;
 	margin: 0;
 }
 
-section:nth-of-type(3) .flex-container{
+section:nth-of-type(3) .flex-container {
 	width: 100%;
 	display: flex;
-    justify-content: space-between;
-	padding-right: 2rem;
+	justify-content: space-between;
+	padding-right: 10rem;
 	margin-bottom: 5rem;
 }
 
-section:nth-of-type(3) .col-2{
+section:nth-of-type(3) .col-2 {
 	align-self: flex-end;
 }
 
-section:nth-of-type(3) a{
+section:nth-of-type(3) a {
 	font-family: aktiv web;
+	font-size: 2rem;
 }
 
-/* section:nth-of-type(3) figure{
-	position: relative;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	height: 60vh;
+@media (max-width: 800px) {
+
+	section:nth-of-type(3) {
+		margin-top: 10rem;
+	}
+
+	section:nth-of-type(3) h2 {
+		font-family: aktiv web;
+		font-size: 1.8rem;
+		text-transform: uppercase;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin: 0;
+	}
+
+	section:nth-of-type(3) .flex-container {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		padding-right: 2rem;
+		margin-bottom: 5rem;
+	}
+
+	section:nth-of-type(3) .col-2 {
+		align-self: flex-end;
+	}
+
+	section:nth-of-type(3) a {
+		font-family: aktiv web;
+		font-size: 1rem;
+	}
 }
 
-section:nth-of-type(3) img{
-	top: 0;
-	left: 0;
-	width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-}
-
-section:nth-of-type(3) figcaption{
-	position: absolute;
-	top: 0;
-	left: 1em;
-}
-
-section:nth-of-type(3) p,h3{
-	margin-bottom: 0px;
-	font-family: aktiv web;
-	text-transform: uppercase;
-	font-size: 0.9rem;
-} */
-.yourGrid {
+.ImageGrid {
 	display: grid;
 	grid-template: repeat(2, 50%) / repeat(2, 50%);
-  }
+}
 
-  .yourGrid>figure:first-child {
+.ImageGrid>figure:first-child {
 	position: relative;
 	width: 100%;
 	padding: 0;
 	margin: 0;
 	height: 80vh;
-
 	grid-row: span 2;
-	/* object-fit: cover;
-object-position: center; */
-	background-color: red;
-  }
+}
 
-  .yourGrid>figure:nth-child(n + 2) {
+.ImageGrid>figure:nth-child(n + 2) {
 	position: relative;
 	width: 100%;
 	height: 40vh;
 	margin: 0px;
-	/* aspect-ratio: 16 / 10; */
-	/* object-fit: cover;
-object-position: center; */
-	background-color: blue;
-  }
+}
 
-  img:nth-of-type(1) {
+img:nth-of-type(1) {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -181,126 +199,122 @@ object-position: center; */
 	height: 80vh;
 	object-fit: cover;
 	object-position: center center;
-  }
+}
 
-  body > main > section:nth-child(4) > div.yourGrid > figure:nth-child(2) > img{
+body>main>section:nth-child(4)>div.ImageGrid>figure:nth-child(2)>img {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	object-fit: cover;
 	object-position: center center;
-  }
+}
 
-  body > main > section:nth-child(4) > div.yourGrid > figure:nth-child(3) > img {
+body>main>section:nth-child(4)>div.ImageGrid>figure:nth-child(3)>img {
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 	object-position: center center;
-	filter: blur(10);
-  }
+}
 
 
-  .yourGrid figcaption {
+.ImageGrid figcaption {
 	position: absolute;
 	top: 0;
 	left: 1em;
-  }
+}
 
-  .yourGrid  p,h3{
+.ImageGrid p,
+h3 {
 	margin-bottom: 0px;
 	font-family: aktiv web;
 	text-transform: uppercase;
 	font-size: 0.9rem;
-} 
-
-  @media (max-width: 800px) {
-	.yourGrid {
-	  display: grid;
-	  grid-template: none;
-	}
-
-	.yourGrid>figure:first-child {
-	  position: relative;
-	  width: 100%;
-	  padding: 0;
-	  margin: 0;
-	  height: 60vh;
-
-	  grid-row: span 2;
-	  /* object-fit: cover;
-object-position: center; */
-	  background-color: red;
-	}
-
-	.yourGrid>figure:nth-child(n + 2) {
-	  position: relative;
-	  width: 100%;
-	  height: 60vh;
-	  margin: 0px;
-	  /* aspect-ratio: 16 / 10; */
-	  /* object-fit: cover;
-object-position: center; */
-	  background-color: blue;
-	}
-
-	img:nth-of-type(1) {
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  width: 100%;
-	  height: 60vh;
-	  object-fit: cover;
-	  object-position: center center;
-	}
-
-	body>div>figure:nth-child(2)>img {
-	  position: absolute;
-	  height: 60vh;
-	  width: 100%;
-	  object-fit: cover;
-	  object-position: center center;
-	}
-
-	body>div>figure:nth-child(3)>img {
-	  position: absolute;
-	  height: 60vh;
-	  width: 100%;
-	  object-fit: cover;
-	  object-position: center center;
-	}
-
-
-	.yourGrid figcaption {
-	  position: absolute;
-	  top: 0;
-	  left: 1em;
-	}
-
-	.yourGrid h2 {
-	  font-size: 1.8rem;
-	  text-transform: uppercase;
-	}
-  }
-
-section:nth-of-type(4){
-	position: relative;
-	width: 100%;
 }
 
-section:nth-of-type(4) blockquote{
+@media (max-width: 800px) {
+	.ImageGrid {
+		display: grid;
+		grid-template: none;
+	}
+
+	.ImageGrid>figure:first-child {
+		position: relative;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		height: 60vh;
+	}
+
+	.ImageGrid>figure:nth-child(n + 2) {
+		position: relative;
+		width: 100%;
+		height: 60vh;
+		margin: 0px;
+	}
+
+
+	.ImageGrid figcaption {
+		position: absolute;
+		top: 0;
+		left: 1em;
+	}
+
+	.ImageGrid h2 {
+		font-size: 1.8rem;
+		text-transform: uppercase;
+	}
+}
+
+section:nth-of-type(4) {
+	position: relative;
+	width: 100%;
+	height: 80vh;
+}
+
+section:nth-of-type(4) blockquote {
+	position: absolute;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section:nth-of-type(4) p {
 	font-family: aktiv web;
-	font-size: 1.8rem;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	font-size: 4rem;
 	text-align: center;
 	line-height: 1.1;
 }
+@media (max-width: 800px) {
+
+	section:nth-of-type(4) {
+		position: relative;
+		width: 100%;
+		height: 60vh;
+	}
+	
+	section:nth-of-type(4) blockquote {
+		position: absolute;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	section:nth-of-type(4) p {
+		font-family: aktiv web;
+		font-size: 1.8rem;
+		text-align: center;
+		line-height: 1.1;
+	}
+}
+
 section:nth-of-type(5) {
 	position: relative;
 }
 
-section:nth-of-type(5) figure{
+section:nth-of-type(5) figure {
 	position: relative;
 	width: 100%;
 	height: 60vh;
@@ -308,34 +322,35 @@ section:nth-of-type(5) figure{
 	margin: 0;
 }
 
-section:nth-of-type(5) img{
+section:nth-of-type(5) img {
 	top: 0;
 	left: 0;
 	width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
 }
 
-section:nth-of-type(5) figcaption{
+section:nth-of-type(5) figcaption {
 	position: absolute;
 	top: 0;
 	left: 1em;
 }
 
-section:nth-of-type(5) p,h3{
+section:nth-of-type(5) p,
+h3 {
 	margin-bottom: 0px;
 	font-family: aktiv web;
 	text-transform: uppercase;
 	font-size: 0.9rem;
 }
 
-section:nth-of-type(6){
+section:nth-of-type(6) {
 	position: relative;
 	width: 100%;
 }
 
-section:nth-of-type(6) blockquote{
+section:nth-of-type(6) blockquote {
 	font-family: aktiv web;
 	font-size: 1.8rem;
 	padding-top: 1rem;
@@ -348,7 +363,7 @@ section:nth-of-type(7) {
 	position: relative;
 }
 
-section:nth-of-type(7) figure{
+section:nth-of-type(7) figure {
 	position: relative;
 	width: 100%;
 	height: 60vh;
@@ -356,23 +371,24 @@ section:nth-of-type(7) figure{
 	margin: 0;
 }
 
-section:nth-of-type(7) img{
+section:nth-of-type(7) img {
 	orientation: portrait;
 	top: 0;
 	left: 0;
 	width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
 }
 
-section:nth-of-type(7) figcaption{
+section:nth-of-type(7) figcaption {
 	position: absolute;
 	top: 0;
 	left: 1em;
 }
 
-section:nth-of-type(7) p,h3{
+section:nth-of-type(7) p,
+h3 {
 	margin-bottom: 0px;
 	font-family: aktiv web;
 	text-transform: uppercase;
