@@ -31,6 +31,12 @@ body {
 
 }
 
+@font-face {
+	font-family: resonay;
+	src: url(../fonts/resonay-base-medium.otf);
+
+}
+
 
 
 
@@ -285,6 +291,7 @@ section:nth-of-type(4) p {
 	font-size: 4rem;
 	text-align: center;
 	line-height: 1.1;
+	padding: 5rem;
 }
 @media (max-width: 800px) {
 
@@ -307,6 +314,7 @@ section:nth-of-type(4) p {
 		font-size: 1.8rem;
 		text-align: center;
 		line-height: 1.1;
+		padding: 0rem;
 	}
 }
 
@@ -359,6 +367,53 @@ section:nth-of-type(6) blockquote {
 	line-height: 1.1;
 }
 
+section:nth-of-type(6) {
+	position: relative;
+	width: 100%;
+	height: 80vh;
+}
+
+section:nth-of-type(6) blockquote {
+	position: absolute;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section:nth-of-type(6) p {
+	font-family: aktiv web;
+	font-size: 4rem;
+	text-align: center;
+	line-height: 1.1;
+	padding: 5rem;
+}
+
+@media (max-width: 800px) {
+
+	section:nth-of-type(6) {
+		position: relative;
+		width: 100%;
+		height: 60vh;
+	}
+	
+	section:nth-of-type(6) blockquote {
+		position: absolute;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	section:nth-of-type(6) p {
+		font-family: aktiv web;
+		font-size: 1.8rem;
+		text-align: center;
+		line-height: 1.1;
+		padding: 0rem;
+	}
+}
+
 section:nth-of-type(7) {
 	position: relative;
 }
@@ -366,7 +421,7 @@ section:nth-of-type(7) {
 section:nth-of-type(7) figure {
 	position: relative;
 	width: 100%;
-	height: 60vh;
+	height: 80vh;
 	padding: 0;
 	margin: 0;
 }
@@ -390,11 +445,26 @@ section:nth-of-type(7) figcaption {
 section:nth-of-type(7) p,
 h3 {
 	margin-bottom: 0px;
-	font-family: aktiv web;
+	font-family: "aktiv web";
 	text-transform: uppercase;
 	font-size: 0.9rem;
 }
 
+footer nav{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	position: center;
+
+}
+
+nav li{
+	list-style-type: none;
+}
+
+footer span{
+	font-size: 15rem;
+	font-family: "resonay";
+}
 
 
 /* poisition center
