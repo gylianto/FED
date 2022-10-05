@@ -137,26 +137,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
   Ik heb de html structuur af gekregen en ook het grootste gedeelte van de css. Wel heb ik wat problemen
   met het responsive maken van een image grid maar dit gaat hopelijk nog wel lukken.
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Ik heb met de student assistent een optie gevonden hoe ik de 3 column image grid kan maken
+  - Ik mheb nog een javascript micro interaction nodig.
 - ...
 
 </details>
