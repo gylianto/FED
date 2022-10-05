@@ -1028,18 +1028,11 @@ body>main>section:nth-child(4)>ul:nth-child(1)>h3:nth-child(2) {
   }
   
   .work section:nth-of-type(7)  img:nth-of-type(1) {
-	webkit-transform: rotate(-4.35deg) translateX(18%);
-	-ms-transform: rotate(-4.35deg) translateX(18%);
 	transform: rotate(-4.35deg) translateX(18%);
   }
   
-  .work section:nth-of-type(7)  img:nth-of-type(2){
-  
-  }
   
   .work section:nth-of-type(7)  img:nth-of-type(3){
-	-webkit-transform: rotate(2.43deg) translateX(0);
-	  -ms-transform: rotate(2.43deg) translateX(0);
 	  transform: rotate(2.43deg) translateX(0);
   }
 
