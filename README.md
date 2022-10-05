@@ -114,24 +114,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Ik ben begonnen aan de html structuur van de website. Hierbij moet ik rekening houden dat sommige elementen niet zichtbaar
+  zijn op de mobiele versie maar wel op desktopversie. Dit heb ik meegenomen in de structuur van de html en het gaat opzich
+  wel prima.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Uitzoeken hoe werkt
+  - Minder classes
 
 </details>
 
@@ -146,6 +137,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb de html structuur af gekregen en ook het grootste gedeelte van de css. Wel heb ik wat problemen
+  met het responsive maken van een image grid maar dit gaat hopelijk nog wel lukken.
 
 
   ### Agenda voor meeting
@@ -274,8 +267,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
 
+3 image grid op de index page:
+https://stackoverflow.com/questions/44603729/how-to-use-flexbox-to-layout-multiple-columns
+
+Text underline micro interaction:
+https://css-irl.info/animating-underlines/
+
+Footer numbered logo:
+https://stackoverflow.com/questions/16489937/how-do-i-horizontally-center-a-span-element-inside-a-div
+
+Center text in logo grid:
+https://github.com/ianstormtaylor/slate/issues/2359
+
+Align span center:
+https://stackoverflow.com/questions/8392211/html-span-align-center-not-working
 </details>
