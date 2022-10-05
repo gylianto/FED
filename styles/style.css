@@ -16,7 +16,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	color: white;
-	background-color: #111;
+	background-color: var(--primary-bg);
 }
 
 a{
@@ -29,6 +29,11 @@ a{
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
+:root {
+	--primary-bg:  #111;
+	--secondary-bg: #ffffff;
+  }
 
 a:hover{
 	text-decoration: underline;
@@ -89,7 +94,7 @@ li{
 .m-nav button span {
 	display: block;
 	margin: 3px 0;
-	background-color: #fff;
+	background-color: var(--secondary-bg);
 	width: 18px;
 	height: 1px;
 }
@@ -203,7 +208,7 @@ padding-right: 4px;
 	bottom: 0;
 	width: 100vw;
 	height: calc(100vh + 45px);
-	background-color: #0e0e0e;
+	background-color: var(--primary-bg);
 	display: block;
 	text-align: center;
 	overflow-y: hidden;
@@ -856,7 +861,7 @@ body>main>section:nth-child(4)>ul:nth-child(1)>h3:nth-child(2) {
 
 .work section:nth-of-type(5) {
 	display: grid;
-	background-color: white;
+	background-color: var(--secondary-bg);
 	margin-top: 10rem;
 	grid-template-columns: 1fr 1fr 1fr; 
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -982,7 +987,7 @@ body>main>section:nth-child(4)>ul:nth-child(1)>h3:nth-child(2) {
 
 .work section:nth-of-type(6){
 	padding-top: 10rem;
-	background-color: white;
+	background-color: var(--secondary-bg);
 	position: relative;
 	color:#111;
 	font-family: "aktiv web";
@@ -1014,7 +1019,7 @@ body>main>section:nth-child(4)>ul:nth-child(1)>h3:nth-child(2) {
 }
 
 .work section:nth-of-type(7) {
-	background-color: white;
+	background-color: var(--secondary-bg);
 	padding-top: 10rem;
 	display: flex;
 	-ms-flex-align: start;
@@ -1053,7 +1058,7 @@ body>main>section:nth-child(4)>ul:nth-child(1)>h3:nth-child(2) {
 
   .work section:nth-of-type(8){
 	margin:0 auto; 
-	background-color: white;
+	background-color: var(--secondary-bg);
 	padding-bottom: 5rem;
   }
 
