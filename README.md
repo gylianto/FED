@@ -145,8 +145,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Ik heb met de student assistent een optie gevonden hoe ik de 3 column image grid kan maken
-  - Ik mheb nog een javascript micro interaction nodig.
-- ...
+  - Ik heb nog een javascript micro interaction nodig.
 
 </details>
 
@@ -164,26 +163,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  De screenreader ziet de links in de header en footer
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Enkel de links van de website zijn selecteerbaar met de de tab button.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De links op de site zijn het belangrijkst dus ik denk niet dat het echt nodig is om meer
+  elementen selecteerbaar te maken met de tab button.
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  De site is goed te gebruiken met een beperking de content is duidelijk en makkelijk aan te klikken.
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Dit heb ik niet kunnen testen.
 
 </details>
 
@@ -199,24 +201,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - punt 1
   - punt 2
-  - nog een punt
-  - ...
 
 </details>
 
@@ -230,19 +219,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/final1.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="" width="375px" alt="top">
+  <img src="readme-images/final2.png" width="375px"">
+
+  Hoe je met flexbox een 3 column grid kan maken en kan rescalen naar een andere volgorde
+
+   <img src="readme-images/final4.png" width="375px">
+
+   Hoe je met flex een 4 col section in mobile kan transformen naar 1 col
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="" width="375px" alt="bummer">
+  <img src="readme-images/final3.png" width="375px">
+
+  Ik vond het lastig om de images op de volledig goede manier te laten overlappen en ook nog responsive te houden.
 </details>
 
 
